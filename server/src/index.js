@@ -27,7 +27,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'hello world hello',
+    message: 'hello world',
   });
 });
 
